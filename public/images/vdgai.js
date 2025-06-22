@@ -6,7 +6,7 @@ exports.index = async(req, res, next) => {
         res.jsonp({
             url: image,
             count: vdgai.length,
-            author: 'Tnt'
+            author: 'Trung'
         });
     } catch (e) {
         return res.jsonp({ error: e });
